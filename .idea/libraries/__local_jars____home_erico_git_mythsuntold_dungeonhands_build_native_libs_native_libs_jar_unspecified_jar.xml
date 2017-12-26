@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/home/erico/git/mythsuntold_dungeonhands/build/native-libs/native-libs.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/native-libs/native-libs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

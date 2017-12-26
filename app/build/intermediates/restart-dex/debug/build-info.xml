@@ -2,13 +2,13 @@
 <instant-run
     abi="x86"
     api-level="24"
-    build-mode="FULL"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1514254526132"
+    timestamp="1514255956981"
     token="-9009347985727843992"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -18,51 +18,14 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="737" />
+        duration="0" />
     <task
         name="verifier"
-        duration="28" />
-
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/erico/git/mythsuntold_dungeonhands/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1514254526132"
+        timestamp="1514255922542"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -71,13 +34,13 @@
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -89,10 +52,10 @@
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -101,5 +64,9 @@
             location="/home/erico/git/mythsuntold_dungeonhands/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1514255956981"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

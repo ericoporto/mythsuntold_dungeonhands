@@ -8,26 +8,26 @@ def projectPropertiesFile = rootProject.file('project.properties')
 def projectProperties = new Properties()
 projectProperties.load(new FileInputStream(projectPropertiesFile))
 
-    android {
+android {
     compileSdkVersion = 24
     buildToolsVersion = '27.0.3'
 
-        defaultConfig {
+    defaultConfig {
         applicationId projectProperties['applicationId']
         minSdkVersion 9
         targetSdkVersion 24
         versionCode Integer.parseInt(projectProperties.getProperty('versionCode'))
         versionName projectProperties['versionName']
-        }
+    }
 
     signingConfigs {
-            release {
+        release {
             storeFile file(keyStoreProperties['storeFile'])
             storePassword keyStoreProperties['storePassword']
             keyAlias keyStoreProperties['keyAlias']
             keyPassword keyStoreProperties['keyPassword']
-            }
         }
+    }
 
     buildTypes {
         release {
@@ -35,11 +35,11 @@ projectProperties.load(new FileInputStream(projectPropertiesFile))
             signingConfig signingConfigs.release
         }
     }
+    compileSdkVersion 23
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:24.2.0'
-    compile project(':agsEngineLibrary')
-    compile project(':downloader_library')
-    compile fileTree(dir: "$rootProject.projectDir/build/native-libs", include: 'native-libs.jar')
+compile 'com.android.support:appcompat-v7:24.2.0'
+compile project(':agsEngineLibrary')
+compile project(':downloader_library')
 }

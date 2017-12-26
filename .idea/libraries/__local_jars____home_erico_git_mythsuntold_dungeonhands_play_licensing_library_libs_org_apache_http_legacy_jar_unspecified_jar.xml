@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:/home/erico/git/mythsuntold_dungeonhands/play_licensing_library/libs/org.apache.http.legacy.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/play_licensing_library/libs/org.apache.http.legacy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
