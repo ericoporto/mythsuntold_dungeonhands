@@ -1,0 +1,59 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion = 24
+    buildToolsVersion = '27.0.3'
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 24
+        versionCode 340110
+        versionName "3.4.0.11"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+task ndkBuild(type: Exec) {
+    if (!new File("$rootProject.projectDir/libs").exists()) {
+        Properties localProps = new Properties();
+        new File(project.rootDir, 'local.properties').withInputStream {
+            instr -> localProps.load(instr)
+        }
+        Properties localStaticProps = new Properties();
+        new File(project.rootDir, 'local.static.properties').withInputStream {
+            instr -> localStaticProps.load(instr)
+        }
+        def ndkDir = localProps.getProperty('ndk.dir')
+        def ndkExt = (Os.isFamily(Os.FAMILY_WINDOWS) ? '.cmd' : '')
+        def agsDir = localStaticProps.getProperty('ags.sourceDir')
+        def agsLibDir = agsDir + '/Android/library'
+        commandLine ndkDir + '/ndk-build' + ndkExt, '-C', new File(agsLibDir).absolutePath
+    }
+    // commandLine MUST be set, echo nothing if libs folder exists
+    else if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        commandLine 'cmd', '/C echo.'
+    }
+    else {
+        commandLine 'echo','""'
+    }
+}
+
+// build a JAR so the native libraries can be built into the APK
+task nativeLibsToJar(type: Zip) {
+    dependsOn ndkBuild
+    destinationDir file("$rootProject.projectDir/build/native-libs")
+    baseName "native-libs"
+    extension "jar"
+    from fileTree(dir: "$rootProject.projectDir/libs", include: "*/*.so")
+    into "lib/"
+}
+
+tasks.withType(JavaCompile) {
+    compileTask -> compileTask.dependsOn nativeLibsToJar
+}

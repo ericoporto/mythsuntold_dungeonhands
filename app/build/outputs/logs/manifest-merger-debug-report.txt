@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:1:1-64:12
+	package
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:2:5-47
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:5:5-73
+MERGED from [mythsuntold_dungeonhands:play_licensing_library:unspecified] /home/erico/git/mythsuntold_dungeonhands/play_licensing_library/build/intermediates/bundles/default/AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:5:22-70
+uses-permission#android.permission.INTERNET
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:17:5-18:66
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:18:9-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:24:5-25:68
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:25:9-65
+application
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:27:5-62:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/erico/.android/build-cache/fe67b072bceef3ab01ee1637225e736f704ffa2d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/erico/.android/build-cache/c1b37d07feafd5e08dcebfb38a1ea81d622063c2/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/erico/.android/build-cache/6e7487368e3822d7b221b48ba4bbdfe4ccac26ed/output/AndroidManifest.xml:23:5-20
+MERGED from [mythsuntold_dungeonhands:agsEngineLibrary:unspecified] /home/erico/git/mythsuntold_dungeonhands/agsEngineLibrary/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:24.2.0] /home/erico/.android/build-cache/88ce37e293b0e4c0f88f756196b4e9458d8eaecf/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /home/erico/.android/build-cache/4056eb1fc3670088016b22612c62971def7a10da/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/erico/.android/build-cache/50afac17b4137608ddc2173a45009ea861a6afcb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/erico/.android/build-cache/46ea2e4ae0890d419963c03e69c0e1f347a5eaf5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/erico/.android/build-cache/65e77ae7bec7c25c6a8634a9df1cf793a5f3523e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /home/erico/.android/build-cache/344b56f8427d20b6c223b14b7cf069e3a074ded7/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:30:9-41
+	android:supportsRtl
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:31:9-35
+	android:hasCode
+		ADDED from [mythsuntold_dungeonhands:agsEngineLibrary:unspecified] /home/erico/git/mythsuntold_dungeonhands/agsEngineLibrary/build/intermediates/bundles/default/AndroidManifest.xml:11:18-40
+	android:allowBackup
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:29:9-43
+	android:theme
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:32:9-73
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:33:9-60
+activity#com.bigbluecup.android.AgsEngine
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:35:9-40:20
+	android:configChanges
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:35:19-80
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:36:13-60
+intent-filter#android.intent.action.MAIN
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:37:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:38:25-66
+activity#com.mythsuntold.osd.dungeonhands.MainActivity
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:42:9-50:20
+	android:label
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:44:13-45
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:43:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:45:13-49:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:48:27-74
+activity#com.mythsuntold.osd.dungeonhands.ExpansionDownloaderActivity
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:52:9-56:20
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:52:19-94
+service#com.mythsuntold.osd.dungeonhands.ExpansionDownloaderService
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:58:9-95
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:58:18-92
+receiver#com.mythsuntold.osd.dungeonhands.ExpansionAlarmReceiver
+ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:60:9-92
+	android:name
+		ADDED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml:60:19-89
+uses-sdk
+INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/erico/.android/build-cache/fe67b072bceef3ab01ee1637225e736f704ffa2d/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/erico/.android/build-cache/c1b37d07feafd5e08dcebfb38a1ea81d622063c2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/erico/.android/build-cache/6e7487368e3822d7b221b48ba4bbdfe4ccac26ed/output/AndroidManifest.xml:21:5-43
+MERGED from [mythsuntold_dungeonhands:agsEngineLibrary:unspecified] /home/erico/git/mythsuntold_dungeonhands/agsEngineLibrary/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [mythsuntold_dungeonhands:downloader_library:unspecified] /home/erico/git/mythsuntold_dungeonhands/downloader_library/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:24.2.0] /home/erico/.android/build-cache/88ce37e293b0e4c0f88f756196b4e9458d8eaecf/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] /home/erico/.android/build-cache/4056eb1fc3670088016b22612c62971def7a10da/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/erico/.android/build-cache/50afac17b4137608ddc2173a45009ea861a6afcb/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/erico/.android/build-cache/46ea2e4ae0890d419963c03e69c0e1f347a5eaf5/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/erico/.android/build-cache/65e77ae7bec7c25c6a8634a9df1cf793a5f3523e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /home/erico/.android/build-cache/344b56f8427d20b6c223b14b7cf069e3a074ded7/output/AndroidManifest.xml:21:5-23:58
+MERGED from [mythsuntold_dungeonhands:play_licensing_library:unspecified] /home/erico/git/mythsuntold_dungeonhands/play_licensing_library/build/intermediates/bundles/default/AndroidManifest.xml:21:5-23:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] /home/erico/.android/build-cache/fe67b072bceef3ab01ee1637225e736f704ffa2d/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
+		INJECTED from /home/erico/git/mythsuntold_dungeonhands/app/src/main/AndroidManifest.xml
