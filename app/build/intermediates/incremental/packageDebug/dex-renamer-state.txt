@@ -1,4 +1,4 @@
-#Tue Dec 26 00:38:58 BRST 2017
+#Tue Dec 26 19:02:29 BRST 2017
 base.0=/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6136a6bffc25c4d2ede755fa1d6be5ca70c382ed
 renamed.1=classes.dex
 renamed.0=classes2.dex

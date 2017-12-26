@@ -391,7 +391,7 @@
     <string name="kilobytes_per_second">%1$s KB/s</string>
     <string name="notification_download_complete">Download complete</string>
     <string name="notification_download_failed">Download unsuccessful</string>
-    <string name="obbFileSize">22720580</string>
+    <string name="obbFileSize">11357244</string>
     <string name="obbKey">@null</string>
     <string name="progress_percent">%1$d%%</string>
     <string name="prompt_no">No</string>

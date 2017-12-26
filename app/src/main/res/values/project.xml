@@ -8,7 +8,7 @@
     <!-- expansion file version -->
     <integer name="obbFileVersion">3</integer>
     <!-- expansion file size in bytes (long) -->
-    <string name="obbFileSize">22720580</string>
+    <string name="obbFileSize">11357244</string>
     <!-- expansion file key, @null for none -->
     <string name="obbKey">@null</string>
 </resources>

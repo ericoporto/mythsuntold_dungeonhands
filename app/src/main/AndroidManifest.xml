@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mythsuntold.osd.dungeonhands"><!-- TODO: UPDATE PACKAGE NAME -->
+    package="com.mythsuntold.dungeonhands"><!-- TODO: UPDATE PACKAGE NAME -->
 
     <!-- Required to access Google Play Licensing -->
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
@@ -30,7 +30,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-        android:name="com.mythsuntold.osd.dungeonhands.App">
+        android:name="com.mythsuntold.dungeonhands.App">
 
         <activity android:configChanges="orientation|keyboardHidden|screenSize"
             android:name="com.bigbluecup.android.AgsEngine">
@@ -40,7 +40,7 @@
         </activity>
 
         <activity
-            android:name="com.mythsuntold.osd.dungeonhands.MainActivity"
+            android:name="com.mythsuntold.dungeonhands.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,15 +49,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.mythsuntold.osd.dungeonhands.ExpansionDownloaderActivity">
+        <activity android:name="com.mythsuntold.dungeonhands.ExpansionDownloaderActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <service android:name="com.mythsuntold.osd.dungeonhands.ExpansionDownloaderService" />
+        <service android:name="com.mythsuntold.dungeonhands.ExpansionDownloaderService" />
 
-        <receiver android:name="com.mythsuntold.osd.dungeonhands.ExpansionAlarmReceiver" />
+        <receiver android:name="com.mythsuntold.dungeonhands.ExpansionAlarmReceiver" />
 
     </application>
 
