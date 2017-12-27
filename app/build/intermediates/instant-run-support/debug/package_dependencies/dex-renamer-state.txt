@@ -1,4 +1,4 @@
-#Tue Dec 26 19:02:28 BRST 2017
+#Tue Dec 26 22:00:44 BRST 2017
 file.2=/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_15ff12bbba988ead712ab4cdb113a294594f5a8e/classes.dex
 base.2=/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_15ff12bbba988ead712ab4cdb113a294594f5a8e
 file.1=/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d1c7b441799b0d52598bff7fd37c22a21d9f9ed/classes.dex

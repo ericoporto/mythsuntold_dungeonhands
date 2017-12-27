@@ -1,11 +1,8 @@
 import org.apache.tools.ant.taskdefs.condition.Os
-
 apply plugin: 'com.android.library'
-
 android {
     compileSdkVersion = 24
     buildToolsVersion = '27.0.3'
-
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 24
@@ -17,10 +14,16 @@ android {
             minifyEnabled false
         }
     }
+    compileSdkVersion 16
+    sourceSets {
+        main {
+            // let gradle pack the shared library into apk
+            jniLibs.srcDirs = ['jniLibs']
+        }
+    }
 }
-
 task ndkBuild(type: Exec) {
-    if (!new File("$rootProject.projectDir/libs").exists()) {
+    if (!new File("$rootProject.projectDir/jniLibs").exists()) {
         Properties localProps = new Properties();
         new File(project.rootDir, 'local.properties').withInputStream {
             instr -> localProps.load(instr)
@@ -38,22 +41,22 @@ task ndkBuild(type: Exec) {
     // commandLine MUST be set, echo nothing if libs folder exists
     else if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         commandLine 'cmd', '/C echo.'
-    }
-    else {
-        commandLine 'echo','""'
+    } else {
+        commandLine 'echo', '""'
     }
 }
-
 // build a JAR so the native libraries can be built into the APK
 task nativeLibsToJar(type: Zip) {
     dependsOn ndkBuild
-    destinationDir file("$rootProject.projectDir/build/native-libs")
     baseName "native-libs"
     extension "jar"
-    from fileTree(dir: "$rootProject.projectDir/libs", include: "*/*.so")
+    from fileTree(dir: "$rootProject.projectDir/jniLibs", include: "**/*.so")
     into "lib/"
+    destinationDir file("$rootProject.projectDir/build/native-libs")
 }
-
 tasks.withType(JavaCompile) {
     compileTask -> compileTask.dependsOn nativeLibsToJar
+}
+
+dependencies {
 }

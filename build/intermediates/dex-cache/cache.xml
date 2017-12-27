@@ -16,26 +16,8 @@
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="2f698463e54f753be6a54be947c5a966ab1cf7f5">
+        sha1="b324026738237959cd16fa704d6148a7773a7fb7">
         <dex dex="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/pre-dexed/debug/classes_3b3787ddbcbfafb5a01425263d489422fbd719ba.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
-        <dex dex="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7b4b76a5d01d530ebcba323e6925108b4731c695/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="024bc13d0b5a0bb09c727acebd5db31604baef21">
-        <dex dex="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6136a6bffc25c4d2ede755fa1d6be5ca70c382ed/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -45,15 +27,6 @@
         revision="27.0.3"
         sha1="bdbc1f4c68d7bed8a1c2bb40f2b7e78daa115ad9">
         <dex dex="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/pre-dexed/debug/classes_e492ee32fe4863ce207f6ca793407e21808c4bc8.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/erico/git/mythsuntold_dungeonhands/play_licensing_library/build/intermediates/bundles/default/libs/org.apache.http.legacy.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="27.0.3"
-        sha1="e92e46408a9824fb0d6441d327cf4b74b482b262">
-        <dex dex="/home/erico/git/mythsuntold_dungeonhands/app/build/intermediates/transforms/dex/debug/folders/1000/8/org.apache.http.legacy_95b6c09bfd84dd1a65be6bd516083f3964f0ed97/classes.dex" />
     </item>
     <item
         is-multidex="false"
